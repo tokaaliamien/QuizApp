@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="com.example.android.quizapp.MainActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/img" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:padding="8dp"
+                android:text="Networks Quiz"
+                android:textColor="#FFB300"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <TextView
+            style="@style/headers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question1" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/correct_answer1"
+                style="@style/answers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer1.1"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                style="@style/answers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer1.2"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+        </RadioGroup>
+
+
+        <TextView
+            style="@style/headers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question2" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/correct_answer2"
+                style="@style/answers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer2.1"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                style="@style/answers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer2.2"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/headers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question3" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.AppCompatRadioButton
+                style="@style/answers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer3.1"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/correct_answer3"
+                style="@style/answers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer3.2"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/headers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question4" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.AppCompatRadioButton
+                style="@style/answers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer4.1"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                style="@style/answers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer4.2"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/correct_answer4"
+                style="@style/answers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer4.3"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+        </RadioGroup>
+
+
+        <TextView
+            style="@style/headers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question5" />
+
+        <CheckBox
+            android:id="@+id/checkbox1"
+            style="@style/answers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/answer5.1"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <CheckBox
+            android:id="@+id/checkbox2"
+            style="@style/answers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/answer5.2"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <CheckBox
+            android:id="@+id/checkbox3"
+            style="@style/answers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/answer5.3"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <TextView
+            style="@style/headers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question6" />
+
+        <EditText
+            android:id="@+id/answer6"
+            style="@style/headers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Write true or false" />
+
+        <Button
+            style="@style/headers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:onClick="calcScore"
+            android:text="Check your answers"
+            android:textColor="@android:color/white" />
+
+
+    </LinearLayout>
+</ScrollView>

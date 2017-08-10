@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+
+    <string name="question1">1. What does \"LAN\" stand for?</string>
+    <string name="answer1.1">Local Area Network</string>
+    <string name="answer1.2">Wide Area Network</string>
+
+    <string name="question2">2. What does \"PAN\" stand for?</string>
+    <string name="answer2.1">Personal Area Network</string>
+    <string name="answer2.2">Local Area Network</string>
+
+    <string name="question3">3. What does \"MAN\" stand for?</string>
+    <string name="answer3.1">Personal Area Network</string>
+    <string name="answer3.2">Metropolitan Area Network</string>
+
+    <string name="question4">4. The Internet covers which area?</string>
+    <string name="answer4.1">Building</string>
+    <string name="answer4.2">City</string>
+    <string name="answer4.3">Planet</string>
+
+    <string name="question5">5. We can transmit data using ?</string>
+    <string name="answer5.1">Wires</string>
+    <string name="answer5.2">Wireless</string>
+    <string name="answer5.3">Fiber cables</string>
+
+    <string name="question6">6. Is Twisted pairs is a type of wires?</string>
+    <string name="answer6">yes</string>
+
+
+</resources>
